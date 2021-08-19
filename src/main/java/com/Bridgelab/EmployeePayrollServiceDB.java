@@ -48,11 +48,7 @@ public class EmployeePayrollServiceDB {
         }
 
     public ArrayList<EmpPayrollData> getEmployeeData() {
-        /**
-         *  create connection JDBC
-         *  Read  employee data using JDBC
-         *  read employee data from employee payroll from database employee id,name,gender,salary,startdate
-         **/
+        /
         String sql = "SELECT * from employee_payroll";
         ArrayList<EmpPayrollData> empPayrollData = new ArrayList<>();
         try {
