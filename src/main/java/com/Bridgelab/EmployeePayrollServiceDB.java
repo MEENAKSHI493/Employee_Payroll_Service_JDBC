@@ -48,7 +48,7 @@ public class EmployeePayrollServiceDB {
         }
 
     public ArrayList<EmpPayrollData> getEmployeeData() {
-        /
+   
         String sql = "SELECT * from employee_payroll";
         ArrayList<EmpPayrollData> empPayrollData = new ArrayList<>();
         try {
