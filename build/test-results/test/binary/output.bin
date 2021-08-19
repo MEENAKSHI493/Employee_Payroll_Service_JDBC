@@ -1,0 +1,23 @@
+SConnecting to database :jdbc:mysql://localhost:3306/payroll_service?userSSL=false
+NSuccessfully connected to database!:com.mysql.cj.jdbc.ConnectionImpl@7e21730
+Driver Loaded
+!Database connected Successfully
+#com.mysql.cj.jdbc.Driver@41ac6ae4
+**********************
+EmployeeID::1
+EmployeeName::Bill
+Gender::M
+Basic Salary::100000.0
+startDate::2018-06-04
+**********************
+EmployeeID::2
+EmployeeName::Terisa
+Gender::F
+Basic Salary::200000.0
+startDate::2019-11-13
+**********************
+EmployeeID::3
+EmployeeName::Charlie
+Gender::M
+Basic Salary::300000.0
+startDate::2020-07-13
